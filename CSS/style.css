@@ -3520,7 +3520,7 @@ body {
 }
 @media (max-width: 1241px) {
   .choose_content {
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
   }
 }/*# sourceMappingURL=style.css.map */

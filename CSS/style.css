@@ -3517,4 +3517,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+}
+@media (max-width: 1241px) {
+  .choose_content {
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

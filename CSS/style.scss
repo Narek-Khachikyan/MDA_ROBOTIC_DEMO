@@ -642,7 +642,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .why_they_work_with_us_card_right_GenText {
@@ -659,7 +658,7 @@ body{
 }
 
 .why_they_work_with_us_card_right_SubText {
-    text-align: center;
+    max-width: 250px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -1000,6 +999,11 @@ body{
 //----------------------- REVIEWS ------------------- //
 
 
+.slick-slide img{
+    max-width: 95%;
+}
+
+
 .reviews {
     background: #F2F3F7;
     padding-bottom: 105px;
@@ -1060,6 +1064,33 @@ body{
 }
 
 .reviewsSliderItem {}
+
+.slick-slider::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: linear-gradient(90deg, #F2F3F7 0%, rgba(242, 243, 247, 0) 100%);
+    opacity: 0.1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 300px;
+    width: 300px;
+
+}
+
+.slick-slider::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(90deg, #F2F3F7 0%, rgba(242, 243, 247, 0) 100%);
+    opacity: 0.1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 300px;
+    width: 300px;
+
+}
+
 
 //----------------------- HELP ------------------- //
 
@@ -1496,9 +1527,10 @@ body{
     font-size: 32px;
     line-height: 120%;
     color: #000000;
+}
 
-
-
+.blogGenText.blog_news{
+    padding-top: 14px;
 }
 
 .blog_cards {
@@ -1583,7 +1615,7 @@ body{
 .container {}
 
 .blog_news_content {
-    padding-top: 70px;
+    padding-top: 45px;
     padding-bottom: 45px;
 
     display: flex;
@@ -1980,7 +2012,7 @@ body{
 }
 
 .robotPro_Content {
-    padding: 36px 26px 36px 36px;
+    padding: 36px 26px 96px 36px;
 
     background: #FAFAFA;
     border: 1px solid rgba(18, 18, 18, 0.05);
@@ -1999,7 +2031,10 @@ body{
     }
 }
 
-.robotPro_right {}
+.robotPro_right {
+    position: relative;
+    
+}
 
 .robotPro_rightText {
     font-family: 'Druk Cyr';
@@ -2088,6 +2123,8 @@ body{
 
 .robotProButton {
     margin-top: 24px;
+    position: absolute;
+    left: -25px;
 
     display: inline-block;
     background: #007AFF;
@@ -2143,6 +2180,7 @@ body{
 
 .whatGives_left {
     max-width: 512px;
+    position: relative;
 }
 
 .robotPro_rightText {}
@@ -3046,7 +3084,7 @@ body{
 .aboutSystemContent {
     padding: 32px 16px;
 
-    background: #FAFAFA;
+    background: #FFFF;
     border: 1px solid rgba(18, 18, 18, 0.05);
     box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.03);
     border-radius: 12px;
@@ -3555,8 +3593,14 @@ body{
     .blog_newsSubText {
         font-size: 12px;
     }
+    .whatGivesContent{
+        padding: 36px 36px 36px 40px !important;
+    }
 
+}
 
+@media (max-width:361px) {
+    
 }
 
 
@@ -3771,6 +3815,20 @@ body{
     .Location_and_Map {
         padding-top: 18px;
     }
+
+    .robotPro_Content{
+        padding: 36px 26px 45px 36px;
+    }
+
+    .project_Manager_GenText{
+        font-size: 12px;
+    }
+    .project_Manager_Name{
+        font-size: 10px;
+    }
+    .footerRight_content{
+        gap: 7px;
+    }
 }
 
 
@@ -3978,6 +4036,13 @@ body{
 
 }
 
+
+@media (max-width:660px) {
+    .whatGives_right{
+        margin-top: 90px !important;
+    }
+}
+
 @media (max-width:669px) {
     .contactLine {
         display: none;
@@ -4043,6 +4108,12 @@ body{
     }
 
 
+}
+
+@media (max-width:700px) {
+    .robotPro_left{
+        margin-top: 86px !important;
+    }
 }
 
 @media (max-width:765px) {
@@ -4450,7 +4521,7 @@ body{
 
 @media (max-width:1241px) {
     .choose_content{
-        justify-content: center !important;
-        align-items: center !important;
+        justify-content: center;
+        align-items: center;
     }
 }

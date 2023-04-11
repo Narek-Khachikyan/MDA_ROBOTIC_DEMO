@@ -3,12 +3,12 @@
 @font-face {
     font-family: 'Druk Cyr';
     src: url('../fonts/DrukCyr-Medium.ttf');
+    font-display: swap;
 }
 
 input:focus {
-    outline: none;
+   outline: none;
 }
-
 body{
     background: #F2F3F7;
 }
@@ -2033,7 +2033,7 @@ body{
 
 .robotPro_right {
     position: relative;
-    
+
 }
 
 .robotPro_rightText {
@@ -2977,7 +2977,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .cooperatin_left {
@@ -3128,7 +3128,7 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 144%;
-    
+
     color: #000000;
 
 
@@ -3144,9 +3144,9 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 144%;
-    
+
     color: #000000;
-    
+
 
     span{
 
@@ -3160,7 +3160,7 @@ body{
         font-weight: 400;
         font-size: 14px;
         line-height: 144%;
-        
+
         color: #FFFF;
     }
 }
@@ -3171,7 +3171,7 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 144%;
-   
+
     color: #000000;
 }
 
@@ -3180,14 +3180,14 @@ body{
 }
 
 .aboutSystemDownContent{
-    
+
     width: 100%;
     background: #FAFAFA;
     border: 1px solid rgba(18, 18, 18, 0.05);
     box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.03);
     border-radius: 12px;
     padding: 18px 18px 25px 10px ;
-   
+
 }
 
 .aboutSystemDownGenText {
@@ -3196,7 +3196,7 @@ body{
     font-weight: 600;
     font-size: 20px;
     line-height: 144%;
-   
+
     color: #000000;
 }
 
@@ -3208,7 +3208,7 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 144%;
-   
+
     color: #000000;
 }
 
@@ -3230,9 +3230,9 @@ body{
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
-    
+
     color: #121212;
-    
+
     span{
         font-family: 'Inter';
         font-style: normal;
@@ -3246,7 +3246,7 @@ body{
 
 }
 .Distribution_examplesContent {
-   
+
 }
 .Distribution_examplesCards {
     display: flex;
@@ -3257,7 +3257,7 @@ body{
 .Distribution_examplesCard {
     margin-top: 16px;
     max-width: 405px;
-  
+
 }
 
 .Distribution_examplesCardContent{
@@ -3291,10 +3291,10 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 144%;
-    
+
     color: rgba(18, 18, 18, 0.85);
-    
-    
+
+
 }
 
 //----------------------- WORKING_MECHANISM ------------------- //
@@ -3310,7 +3310,7 @@ body{
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
-    
+
     color: #121212;
 }
 .Working_mechanismContentWrapper {
@@ -3376,7 +3376,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 133%;
-    
+
     color: #121212;
 
     span{
@@ -3385,7 +3385,7 @@ body{
         font-weight: 600;
         font-size: 16px;
         line-height: 133%;
-       
+
         color: #121212;
     }
 }
@@ -3409,7 +3409,7 @@ body{
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
-    
+
     color: #121212;
 }
 
@@ -3453,7 +3453,7 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 144%;
-    
+
     color: #000000;
 }
 
@@ -3476,16 +3476,16 @@ body{
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
-    
+
     color: #121212;
-    
+
     span{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 120%;
-      
+
         color: #007AFF;
     }
 }
@@ -3515,7 +3515,7 @@ body{
 
     display: flex;
     align-items: center;
-    gap: 14px;    
+    gap: 14px;
 }
 
 .advantages_ReferralSystemRightCard.margin{
@@ -3533,9 +3533,9 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 144%;
-    
+
     color: #000000;
-    
+
 }
 
 //----------------------- ADAPTIVE ------------------- //
@@ -3600,7 +3600,7 @@ body{
 }
 
 @media (max-width:361px) {
-    
+
 }
 
 

@@ -3,6 +3,7 @@
 @font-face {
   font-family: "Druk Cyr";
   src: url("../fonts/DrukCyr-Medium.ttf");
+  font-display: swap;
 }
 input:focus {
   outline: none;
